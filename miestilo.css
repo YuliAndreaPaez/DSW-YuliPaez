@@ -12,7 +12,11 @@ text-align: center;
     width: 80%;
     text-align: center;
     margin: auto;
-    word-spacing: 150px;  
+    word-spacing: 150px; 
+    display: block; 
+}
+li ,a {
+    list-style: none;
 }
 .table{
     width: 80% ; 
@@ -35,4 +39,4 @@ text-align: center;
     display: block;
     text-align: right;
 }
- 
+
