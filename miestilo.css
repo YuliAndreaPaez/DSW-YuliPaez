@@ -11,11 +11,10 @@ text-align: center;
     width: 80%;
     text-align: center;
     margin: auto;
-    word-spacing: 150px;
-    
+    word-spacing: 150px;  
 }
-.tabla{
-    width: 80% ;
+.table{
+    width: 80% ; 
     margin: 60%;
 }
 .derecha{
@@ -29,3 +28,10 @@ text-align: center;
     margin: 350px;
     width: 70%;
 }
+.Photo{
+    margin: 20px; 
+    width: 25%;   
+    display: block;
+    text-align: right;
+}
+ 
