@@ -1,4 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .titulo{
 text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.menu{
+    padding: 20px;
+    background-color:#005883;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    word-spacing: 150px;
+    
+}
+.tabla{
+    width: 80% ;
+    margin: 60%;
+}
+.derecha{
+    margin: 90px;
+    width: 60%;
+    display: block;
+    text-align: right;
+}
+.twitter-tweet{
+
+    margin: 350px;
+    width: 70%;
 }
