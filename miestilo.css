@@ -1,22 +1,34 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    margin: 15px 20px;
+    
 }
 .titulo{
 text-align: center;
-
 }
 .menu{
-    padding: 20px;
-    background-color:#005883;
-    width: 80%;
-    text-align: center;
+    background:#F0B429;
     margin: auto;
-    word-spacing: 150px; 
-    display: block; 
+    text-align: center;
+    position: relative;
 }
-li ,a {
-    list-style: none;
+.menu >li{
+   position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu>li>a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    transition: all .3s;
+    color:white;
+}
+ li ,a {
+    list-style:none ;
 }
 .table{
     width: 80% ; 
@@ -39,4 +51,23 @@ li ,a {
     display: block;
     text-align: right;
 }
+.submenu{
+    position: absolute;
+    background: #F0B429;
+    display: none;
+   padding: 15px;
+   text-decoration: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.menu li :hover.submenu {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+    position: absolute;
+}
+
 
