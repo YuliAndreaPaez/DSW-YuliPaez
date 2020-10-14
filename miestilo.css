@@ -61,6 +61,8 @@ text-align: center;
 }
 .menu li :hover .submenu{
     display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
 
