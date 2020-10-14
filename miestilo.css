@@ -15,7 +15,7 @@ text-align: center;
 }
 .menu >li{
    position: relative;
-    display: inline-block;
+   display: inline-block;
     text-decoration: none;
 }
 .menu>li>a{
@@ -41,7 +41,6 @@ text-align: center;
     text-align: right;
 }
 .twitter-tweet{
-
     margin: 350px;
     width: 70%;
 }
@@ -55,19 +54,13 @@ text-align: center;
     position: absolute;
     background: #F0B429;
     display: none;
-   padding: 15px;
-   text-decoration: none;
 }
-.submenu li a{
+.submenu li a{ 
     display: block;
-    padding: 15px;
-    text-decoration: none;
+    text-decoration: none; 
 }
-.menu li :hover.submenu {
-    visibility: visible;
+.menu li :hover .submenu{
     display: block;
-    opacity: 1;
-    position: absolute;
 }
 
 
