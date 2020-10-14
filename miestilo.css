@@ -5,54 +5,54 @@ body{
 }
 .titulo{
     text-align: center;
-    }
+}
 .menu{
         background:#F0B429;
         margin: auto;
         text-align: center;
         position: relative;
-    }
+}
 .menu >li{
        position: relative;
        display: inline-block;
         text-decoration: none;
-    }
+}
 .menu>li>a{
         display: block;
         padding: 15px 20px;
         text-decoration: none;
-    }
+}
 .menu li a:hover{
         transition: all .3s;
         color:white;
-    }
+}
  li ,a {
         list-style:none ;
-    }
+}
 .table{
         width: 80% ; 
         margin: 60%;
-    }
+}
 .derecha{
         margin: 90px;
         width: 60%;
         display: block;
         text-align: right;
-    }
- .twitter-tweet{
+}
+.twitter-tweet{
         margin: 350px;
         width: 70%;
-    }
- .Photo{
+}
+.Photo{
         margin: 20px; 
         width: 25%;   
         display: block;
         text-align: right;
- }
- .submenu{
+}
+.submenu{
     position: absolute;
     background: #F0B429;
-    display: block;
+    display: none;
 }
 .submenu li a{ 
     display: block;
