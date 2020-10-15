@@ -52,15 +52,11 @@ body{
 .submenu{
     position: absolute;
     background: #F0B429;
+    display: none;
 }
-.submenu li a{ 
+.submenu li{ 
     display: block;
     text-decoration: none; 
-}
-.menu li :hover .submenu{
-    display: block;
-    visibility: visible;
-    opacity: 1;
 }
 .imagen2{
         display: block;
