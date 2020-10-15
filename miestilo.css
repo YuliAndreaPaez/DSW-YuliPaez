@@ -1,7 +1,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
-    
+    margin: 2.5%;
 }
 .titulo{
     text-align: center;
@@ -16,6 +16,10 @@ body{
        position: relative;
        display: inline-block;
         text-decoration: none;
+}
+.twitter-tweet{
+        margin: 350px;
+        width: 70%;
 }
 .menu>li>a{
         display: block;
@@ -39,10 +43,6 @@ body{
         display: block;
         text-align: right;
 }
-.twitter-tweet{
-        margin: 350px;
-        width: 70%;
-}
 .Photo{
         margin: 20px; 
         width: 25%;   
@@ -52,7 +52,6 @@ body{
 .submenu{
     position: absolute;
     background: #F0B429;
-    display: none;
 }
 .submenu li a{ 
     display: block;
@@ -62,4 +61,9 @@ body{
     display: block;
     visibility: visible;
     opacity: 1;
+}
+.imagen2{
+        display: block;
+        margin: 15px 20px;
+        width: 70%;
 }
