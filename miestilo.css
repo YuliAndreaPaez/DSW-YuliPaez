@@ -22,12 +22,12 @@ h3{
         text-decoration: none;
 }
 .twitter-tweet{
-        width: 280px;
-        margin-left: 20px;
-        padding-left: 19px;
-        height: 490px;
-        float: left;
-        position: absolute;
+        margin: 25px 950px;
+        width: none;
+        height: right;
+        position:absolute;
+        padding: 15px 20px;
+        
 }
 .menu>li>a{
         display: block;
