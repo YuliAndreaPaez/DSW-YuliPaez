@@ -20,8 +20,16 @@ h2 {
    color: yellow;
    font-size: 18px;
 }
-h4{
+h5{
    text-align: center;
+}
+h4{
+   font-size: 17px;
+   text-align: justify;
+}
+h7{
+   font-size:17px ;
+   color:black;
 }
 section{
    width: 1300px;
@@ -71,9 +79,9 @@ section{
 }
 
 article{
-  font-size: 20px;
+  font-size: 130%;
   text-align: justify;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .derecha{
    margin: 5px 220px;
@@ -90,7 +98,8 @@ article{
 .imagen2{
    display: block;
    margin: 15px 20px;
-   width: 70%;
+   width: 850px;
+   height:400px ;
 }
 table{
     width: 700px;
@@ -134,10 +143,4 @@ li ul a{
 }
 li:hover ul{ 
    display: block;    
-}
-p{
-   text-align: justify;
-   color: black;
-   font-size: 18px;
-   margin-left: 14px;
 }
