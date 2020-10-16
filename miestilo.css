@@ -16,6 +16,10 @@ h1.titulo{
    float: left;
    left: 50%;
 }
+h3{
+   text-align: center;
+   font-size: 30px;
+}
 h2 {
    color: yellow;
    font-size: 18px;
