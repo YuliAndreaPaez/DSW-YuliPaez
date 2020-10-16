@@ -35,22 +35,31 @@ section{
    text-align: center;
    position: relative;
    text-decoration: none;
+   
 }
 .menu >li{
-        
-   position: relative;
+   text-align: left;
+   margin: auto;
    display: inline-block;
    text-decoration: none;
+   padding: 10px 40px;
+  
+}
+.menu li a{
+        width: 140%;
+        background-size: 100px 45px;
 }
 .menu>li>a{
    display: block;
    padding: 25x 30px;
    text-decoration: none;
    color: black;
+   
 }
 .menu li :hover{
    transition: all .3s;
    color:white;
+   background-color: #F0B429;
 }
 .twitter-timeline {
    width: 250px;
