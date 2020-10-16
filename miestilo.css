@@ -5,7 +5,7 @@ body{
         background: #005883;
         padding: 0;
     }
-    h1.titulo{
+h1.titulo{
        text-align: center;
         color: white;
         position: absolute;
@@ -16,43 +16,44 @@ body{
         top: 10%;
         transform: translatex(-50%)translateY(-50%);
     }
-    h2 {
+h2 {
             color: yellow;
-            font-size: 20px;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    h4{
+h4{
             text-align: center;
     }
-    section{
+section{
         width: 1300px;
         height: auto;
         z-index: -1;
         float: left;
     }
-    .menu{
+.menu{
             background:#F0B429;
             margin: auto;
             text-align: center;
             position: relative;
     }
-    .menu >li{
+.menu >li{
            position: relative;
            display: inline-block;
             text-decoration: none;
     }
-    .menu>li>a{
+.menu>li>a{
             display: block;
             padding: 15px 20px;
             text-decoration: none;
     }
-    .menu li a:hover{
+.menu li a:hover{
             transition: all .3s;
             color:white;
     }
-     li ,a {
+li ,a {
             list-style:none ;
     }
-    .twitter-timeline {
+.twitter-timeline {
             width: 250px;
             height: 345px;
             background-repeat: no-repeat;
@@ -60,39 +61,38 @@ body{
             margin-bottom: 15px;   
             float:right;
     }
-    
-    article{
+article{
             font-size: 20px;
             text-align: justify;
             margin-left: 10px;
     }
-    .derecha{
+.derecha{
             margin: 5px 220px;
             width: none;
             height: right;
             position:absolute;
     }
-    .Photo{
+.Photo{
             margin: 50px; 
             width: 50%;   
             display: block;
             text-align: right;
     }
-    .submenu{
+.submenu{
         position: absolute;
         background: #F0B429;
         display: none;
     }
-    .submenu li{ 
+.submenu li{ 
         display: block;
         text-decoration: none; 
     }
-    .imagen2{
+.imagen2{
             display: block;
             margin: 15px 20px;
             width: 70%;
     }
-    table{
+table{
         width: 700px;
         float: left;
     }
