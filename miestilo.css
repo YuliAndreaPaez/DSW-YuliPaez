@@ -17,9 +17,8 @@ h1.titulo{
         transform: translatex(-50%)translateY(-50%);
     }
 h2 {
-            color: yellow;
-            font-size: 15px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color: yellow;
+            font-size: 18px;
     }
 h4{
             text-align: center;
