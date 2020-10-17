@@ -48,8 +48,7 @@ section{
    margin: auto;
    text-align: center;
    position: relative;
-   text-decoration: none;
-   
+   text-decoration: none; 
 }
 .menu >li{
    text-align: left;
@@ -60,8 +59,8 @@ section{
   
 }
 .menu li a{
-        width: 140%;
-        background-size: 100px 45px;
+   width: 140%;
+   background-size: 100px 45px;
 }
 .menu>li>a{
    display: block;
@@ -83,7 +82,6 @@ section{
    margin-bottom: 15px;   
    float:right;
 }
-
 article{
   font-size: 130%;
   text-align: justify;
@@ -110,7 +108,7 @@ article{
 table{
     width: 700px;
     float: left;
-    }
+}
 nav{
     background-color: #F0B429;
     border-radius: 5px;
@@ -150,25 +148,6 @@ li ul a{
 li:hover ul{ 
    display: block;    
 }
-.presentacion{
-   text-align: center;
-   position: absolute;  
-   top: 85%;
-   transform: translatex(-50%)translateY(-50%);
-   font-size: 78px;
-   margin-right: 5px;
-   float: left;
-   left: 50%;
-}
-.presentacion2{
-   text-align: center;
-   position: absolute;  
-   top: 170%;
-   transform: translatex(-50%)translateY(-50%);
-   font-size: 78px;
-   margin-right: 5px;
-   float: left;
-   left: 50%;
-}
+
 
 
