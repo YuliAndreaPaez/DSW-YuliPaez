@@ -75,12 +75,14 @@ section{
    color:#ffff;
 }
 .twitter-timeline {
-   width: 250px;
-   height: 345px;
+   width: 270px;
+   height: 365px;
    background-repeat: no-repeat;
    background-size: 100px 45px;
    margin-bottom: 5px;   
    float:right;
+   position: absolute;
+   transform: translatex(5%)translateY(0%);
 }
 article{
   font-size: 130%;
@@ -104,6 +106,7 @@ article{
    margin: 15px 20px;
    width: 850px;
    height:400px ;
+   transform: translatex(10%)translateY(0%);
 }
 table{
     width: 700px;
@@ -151,6 +154,9 @@ li ul a{
 li:hover ul{ 
    display: block;    
 }
-
+iframe{
+   position: relative;
+   transform: translatex(40%)translateY(0%);
+}
 
 
