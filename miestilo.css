@@ -17,7 +17,7 @@ h1.titulo{
    left: 50%;
 }
 h2 {
-   color: yellow;
+   color: #F0B429;
    font-size: 18px;
 }
 h3{
@@ -71,7 +71,7 @@ section{
 }
 .menu li :hover{
    transition: all .3s;
-   color:white;
+   color:#B3B3B3;
    background-color: #F0B429;
 }
 .twitter-timeline {
