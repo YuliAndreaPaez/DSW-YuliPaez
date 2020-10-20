@@ -56,7 +56,6 @@ section{
    display: inline-block;
    text-decoration: none;
    padding: 10px 40px;
-  
 }
 .menu li a{
    width: 140%;
@@ -66,20 +65,21 @@ section{
    display: block;
    padding: 25x 30px;
    text-decoration: none;
-   color: black;
-   
+   color: black; 
+}
+.menu ul li{
+   text-align: center;
 }
 .menu li :hover{
    transition: all .3s;
    color:#ffff;
-   background-color: #F0B429;
 }
 .twitter-timeline {
    width: 250px;
    height: 345px;
    background-repeat: no-repeat;
    background-size: 100px 45px;
-   margin-bottom: 15px;   
+   margin-bottom: 5px;   
    float:right;
 }
 article{
@@ -110,7 +110,7 @@ table{
     float: left;
 }
 nav{
-    background-color: #F0B429;
+   background-color: #F0B429;
     border-radius: 5px;
     border-bottom-right-radius: 0; 
     text-align: center;
@@ -134,7 +134,10 @@ ul{
     margin: 0px;
     padding: 0px;
     display: inline-block;
-}     
+}  
+ul li{
+   width: 90%;
+}   
 li ul{
    text-decoration: none;
    position: absolute;
