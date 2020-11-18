@@ -63,7 +63,7 @@ section{
 }
 .menu>li>a{
    display: block;
-   padding: 25x 30px;
+   padding: 0;
    text-decoration: none;
    color: black; 
 }
