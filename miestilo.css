@@ -156,5 +156,10 @@ iframe{
    position: relative;
    transform: translatex(40%)translateY(0%);
 }
+.video{
+   position: relative;
+   transform: translatex(40%)translateY(0%);
+}
+
 
 
